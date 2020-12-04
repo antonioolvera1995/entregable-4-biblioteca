@@ -1,6 +1,7 @@
 #Proyecto creado en Node utilizando Mongodb y Mongoose.
 
 Debe reemplazar el contenido de la variable "dbAtlas" ubicado en databases.ts por su enlace de conexion en MongodbAtlas.
+También debera crear en su base de datos una nueva colección llamada "library" y 2 documentos llamados "authors" y "books".
 
 #Rutas de libros
 

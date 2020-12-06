@@ -1,19 +1,19 @@
-#Proyecto creado en Node utilizando Mongodb y Mongoose.
+# Proyecto creado en Node utilizando Mongodb y Mongoose.
 
-Debe reemplazar el contenido de la variable "dbAtlas" ubicado en databases.ts por su enlace de conexion en MongodbAtlas.
-También debera crear en su base de datos una nueva colección llamada "library" y 2 documentos llamados "authors" y "books".
+- Debe reemplazar el contenido de la variable "dbAtlas" ubicado en databases.ts por su enlace de conexion en MongodbAtlas.
+- También debera crear en su base de datos una nueva colección llamada "library" y 2 documentos llamados "authors" y "books".
 
-#Rutas de libros
+## Rutas de libros
 
-http://localhost:3000/books            // get
-http://localhost:3000/books/all        // get
-http://localhost:3000/books/:id        // get
-http://localhost:3000/books            // post
-http://localhost:3000/books/:id        // delete
-http://localhost:3000/books/:id        // put
+- http://localhost:3000/books            // get
+- http://localhost:3000/books/all        // get
+- http://localhost:3000/books/:id        // get
+- http://localhost:3000/books            // post
+- http://localhost:3000/books/:id        // delete
+- http://localhost:3000/books/:id        // put
 
-#JSON para los libro
-Para post
+## JSON para los libro
+- Para post
 ```
 {
     "idAuthor": "gs65d465ds4",
@@ -22,7 +22,7 @@ Para post
     "isbn": "4rfgb9er"
 }
 ```
-Para put
+- Para put
 ```
 {
     
@@ -33,17 +33,17 @@ Para put
 ```
 
 
-#Rutas de autores
+## Rutas de autores
 
-http://localhost:3000/authors          // get
-http://localhost:3000/authors/:id      // get
-http://localhost:3000/authors          // post
-http://localhost:3000/authors/:id      // put
-http://localhost:3000/authors/:id      // delete
+- http://localhost:3000/authors          // get
+- http://localhost:3000/authors/:id      // get
+- http://localhost:3000/authors          // post
+- http://localhost:3000/authors/:id      // put
+- http://localhost:3000/authors/:id      // delete
 
-#JSON para los autores
+## JSON para los autores
 
-Para post y put
+- Para post y put
 ```
 {
     "name": "Antonio",
